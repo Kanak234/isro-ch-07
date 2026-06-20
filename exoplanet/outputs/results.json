@@ -1,0 +1,146 @@
+[
+  {
+    "name": "demo_00_true-transit",
+    "bls_period": 3.2437680615760813,
+    "bls_snr": 122.27979712258282,
+    "bls_power": 24827.136939821823,
+    "label": "transit",
+    "confidence": 0.999850794935087,
+    "probabilities": {
+      "blend": 0.00010339932595465707,
+      "eclipse": 1.3451784483439593e-05,
+      "other": 3.235395447482543e-05,
+      "transit": 0.999850794935087
+    },
+    "fit_period": 3.2437680615760813,
+    "fit_period_err": NaN,
+    "fit_duration": 0.3,
+    "fit_duration_err": NaN,
+    "fit_depth": 0.002148341225083846,
+    "fit_depth_err": NaN,
+    "fit_rp": 0.04635020199614934,
+    "fit_rp_err": NaN,
+    "plot": "outputs/demo_00_true-transit.png",
+    "true_label": "transit"
+  },
+  {
+    "name": "demo_01_true-eclipse",
+    "bls_period": 1.5749675817865216,
+    "bls_snr": 402.7331733148525,
+    "bls_power": 2139904.32650593,
+    "label": "eclipse",
+    "confidence": 0.9998870212348903,
+    "probabilities": {
+      "blend": 7.036567104823801e-05,
+      "eclipse": 0.9998870212348903,
+      "other": 2.3623169671434343e-05,
+      "transit": 1.898992439009301e-05
+    },
+    "plot": "outputs/demo_01_true-eclipse.png",
+    "true_label": "eclipse"
+  },
+  {
+    "name": "demo_02_true-blend",
+    "bls_period": 11.358039485384017,
+    "bls_snr": 100.9974653301739,
+    "bls_power": 8490.336875141878,
+    "label": "blend",
+    "confidence": 0.9983623030514127,
+    "probabilities": {
+      "blend": 0.9983623030514127,
+      "eclipse": 0.0002424355949867091,
+      "other": 0.0005931986486295656,
+      "transit": 0.0008020627049711172
+    },
+    "plot": "outputs/demo_02_true-blend.png",
+    "true_label": "blend"
+  },
+  {
+    "name": "demo_03_true-other",
+    "bls_period": 0.625701854321811,
+    "bls_snr": 5.96895859439973,
+    "bls_power": 17.793162298287065,
+    "label": "other",
+    "confidence": 0.9974311047750589,
+    "probabilities": {
+      "blend": 0.0001284692009362335,
+      "eclipse": 3.661913987396852e-05,
+      "other": 0.9974311047750589,
+      "transit": 0.0024038068841310016
+    },
+    "plot": "outputs/demo_03_true-other.png",
+    "true_label": "other"
+  },
+  {
+    "name": "demo_04_true-transit",
+    "bls_period": 7.803711190767293,
+    "bls_snr": 46.334868189992655,
+    "bls_power": 1459.390318679519,
+    "label": "transit",
+    "confidence": 0.9992479780162209,
+    "probabilities": {
+      "blend": 0.0001517586698476206,
+      "eclipse": 8.591716179884648e-05,
+      "other": 0.000514346152132661,
+      "transit": 0.9992479780162209
+    },
+    "fit_period": 7.803711190767293,
+    "fit_period_err": NaN,
+    "fit_duration": 0.192,
+    "fit_duration_err": NaN,
+    "fit_depth": 0.0009205769045036843,
+    "fit_depth_err": NaN,
+    "fit_rp": 0.030341010274934556,
+    "fit_rp_err": NaN,
+    "plot": "outputs/demo_04_true-transit.png",
+    "true_label": "transit"
+  },
+  {
+    "name": "demo_05_true-eclipse",
+    "bls_period": 8.510242302989885,
+    "bls_snr": 159.09164554851398,
+    "bls_power": 1728584.7271303246,
+    "label": "eclipse",
+    "confidence": 0.999947406711301,
+    "probabilities": {
+      "blend": 2.3267980499043105e-05,
+      "eclipse": 0.999947406711301,
+      "other": 1.6256898179534642e-05,
+      "transit": 1.3068410020358582e-05
+    },
+    "plot": "outputs/demo_05_true-eclipse.png",
+    "true_label": "eclipse"
+  },
+  {
+    "name": "demo_06_true-blend",
+    "bls_period": 6.3516380460153385,
+    "bls_snr": 59.39216196382083,
+    "bls_power": 2312.33739829262,
+    "label": "blend",
+    "confidence": 0.9997986133892074,
+    "probabilities": {
+      "blend": 0.9997986133892074,
+      "eclipse": 1.3818540492192922e-05,
+      "other": 3.4855058137667434e-05,
+      "transit": 0.00015271301216281837
+    },
+    "plot": "outputs/demo_06_true-blend.png",
+    "true_label": "blend"
+  },
+  {
+    "name": "demo_07_true-other",
+    "bls_period": 12.528367094587086,
+    "bls_snr": 118.98007301919561,
+    "bls_power": 17221.216832007194,
+    "label": "other",
+    "confidence": 0.990152065219259,
+    "probabilities": {
+      "blend": 0.0007423552553857679,
+      "eclipse": 0.0009245908162352505,
+      "other": 0.990152065219259,
+      "transit": 0.008180988709119912
+    },
+    "plot": "outputs/demo_07_true-other.png",
+    "true_label": "other"
+  }
+]

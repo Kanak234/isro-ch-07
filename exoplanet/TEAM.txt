@@ -1,0 +1,31 @@
+=========================================================
+  TEAM: TAARAKA  (तारक — "the guide that leads")
+=========================================================
+
+ISRO Bharatiya Antariksh Hackathon 2026 (BAH 2026)
+Challenge 07 — AI-enabled Exoplanet Detection from TESS Light Curves
+
+---------------------------------------------------------
+PROJECT: exopipe
+---------------------------------------------------------
+An end-to-end AI pipeline that detects, classifies, and
+characterises exoplanet transit signals in noisy TESS
+light curves from crowded fields.
+
+Capabilities:
+  - Periodic dip detection           (Box Least Squares)
+  - 4-class signal classification    (transit/eclipse/blend/other)
+      * gradient-boosted trees on physical features
+      * AstroNet-style 1-D CNN on phase-folded views
+      * probabilistic ensemble of the two
+  - Signal-to-noise / significance estimation
+  - Transit parameter fitting with uncertainties (MCMC):
+      * orbital period
+      * transit duration
+      * transit depth
+      * Rp/Rs, a/Rs, inclination
+  - Diagnostic visualization of every analysed light curve
+  - Per-detection confidence level
+
+Status: Production-ready for BAH 2026 submission.
+=========================================================

@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+lightkurve
+astropy
+batman-package
+emcee
+joblib
