@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isro-ch-07"
+version = "1.1.0"
+description = "AI-enabled detection and classification of exoplanet transits from noisy TESS light curves"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+[project.optional-dependencies]
+ml = [
+    "scikit-learn",
+    "joblib",
+    "astropy",
+    "batman-package",
+    "emcee",
+    "lightkurve"
+]
+test = [
+    "pytest>=7.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["exoplanet"]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::UserWarning"
+]
